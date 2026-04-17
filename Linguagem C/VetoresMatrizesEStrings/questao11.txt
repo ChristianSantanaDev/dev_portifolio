@@ -1,0 +1,7 @@
+Questão 11 (Discursiva) Explique o que é o caractere '\0' (nulo) em uma string C. O que acontece
+com funções como strlen() e printf("%s") se ele estiver ausente?
+
+R: o caractere ‘\0’ indica o fim da string
+Na função strlen() pode acontecer coisas imprevisíveis como acessar memória de outras
+variaveis, lixo de memoria e retornar um numero muito grande
+Na função printf pode ocorrer crash do programa, o printf exibir lixo de memoria

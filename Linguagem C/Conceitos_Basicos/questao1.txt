@@ -1,0 +1,9 @@
+Questão 1 (Discursiva) Explique, com suas próprias palavras, as três etapas do processo de
+compilação em C (edição, compilação e link-edição). Qual arquivo é gerado ao final e pode ser
+executado pelo sistema operacional?
+
+Resposta: O código escrito em C passa por algumas etapas antes de aparecer no terminal, a primeira
+delas é o compilador que transforma o código fonte em um arquivo de linguagem de montagem
+(ASSEMBLY), o assembler transforma o código de montagem em um código objeto, e por fim o
+linker trata de dependencias e transforma o código objeto em um arquivo executável para aquele
+sistema operacional.

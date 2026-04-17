@@ -1,0 +1,19 @@
+Questão 2 (Discursiva) Observe o programa abaixo e responda:
+
+#include <stdio.h>
+int main() {
+ int x = 5;
+ printf("Valor: %d\nDobro: %d\n", x, x*2);
+ return 0;
+}
+
+a) Qual é a saída exibida na tela?
+R: Valor: 5
+   Dobro:10 
+
+b) O que aconteceria se o #include <stdio.h> fosse removido? Por quê?
+R: O programa daria erro de compilação, pois o #include <stdio.h> é uma biblioteca de
+vários comandos como printf e scanf, sendo assim o printf e scanf não é propriamente do C.
+
+c) Por que o return 0; é importante?
+R: o return 0; siginifica que a execução do programa foi um sucesso.

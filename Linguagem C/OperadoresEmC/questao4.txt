@@ -1,0 +1,10 @@
+BLOCO 2 | Operadores em C
+Questão 4 (Discursiva) Qual é a diferença entre os operadores = e == em C? Dê um exemplo de
+código para cada um e explique o que ocorre em cada caso.
+
+/*Os operadores = e == são diferentes o = é pra atribuição e o == é pra comparar 2 valores*/
+
+	variavel_ inteira = 10; // estou atribuindo 10 a uma variavel
+	if(variavel_inteira == 10){ // estou vendo se ela é igual a 10 mesmo
+		printf("É igual a 10!");
+	} 

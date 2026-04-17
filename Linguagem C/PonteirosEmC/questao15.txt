@@ -1,0 +1,14 @@
+Questão 15 (Código / Análise) Considere o código abaixo com aritmética de ponteiros. Qual é a
+saída?
+
+#include <stdio.h>
+int main() {
+ int v[] = {10, 20, 30, 40, 50};
+ int *p = v; 
+ printf("%d\n", *p);//10
+ printf("%d\n", *(p + 2));//30
+ p++;
+ printf("%d\n", *p);/20
+ printf("%d\n", *(p + 3));//50
+ return 0;
+}

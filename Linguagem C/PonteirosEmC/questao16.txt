@@ -1,0 +1,16 @@
+Questão 16 (Discursiva) Diferencie variável local de variável global em C considerando:
+
+w) Onde cada uma é declarada.
+A variavel global é definida fora de qualquer função já a local e delclarada na em cima das
+funções
+
+x) Em quais partes do código cada uma pode ser acessada (escopo).
+Global: em todo o código e por qualquer função
+Local: só naquela função
+
+y) Qual o valor inicial padrão de cada uma.
+Global: 0 || local: lixo de memoria
+
+z) Em que situações o uso de variáveis globais pode ser problemático?
+Variaveis globais, podem ser um problema pois tornam o programa mais dificil de entender
+e corrigir falhas e é muito facil errar com elas.

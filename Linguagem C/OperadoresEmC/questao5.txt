@@ -1,0 +1,10 @@
+Questão 5 (Código / Análise) Determine o valor de cada expressão abaixo, considerando 
+
+int a = 10, b = 3, c = 4. Explique o resultado.
+
+h) a / b → ____ 3 pois pediu a divisão inteira
+i) (float)a / b → ____ 3.33… pois pediu a divisão float
+j) a % b → ____ 1 resto divisão inteira
+k) a > b && c == 4 → ____ true, as 2 condições são verdadeiras
+l) a != b || c < 2 → ____ true porque mesmo c sendo maior que 4 a é != que b
+m) (a > b) ? a : b → ____10

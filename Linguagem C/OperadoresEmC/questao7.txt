@@ -1,0 +1,6 @@
+Questão 7 (Discursiva) Por que é obrigatório usar o operador & antes do nome da variável em
+scanf()? O que acontece se for omitido?
+
+Resposta: Porque o operador & funciona como um mapa, o computador não sabe originalmente onde fica
+‘a’ ou ‘var’ ou ‘var_int’ o & indica que ele tem que por o valor lido no endereço da var, e sem ele o
+computador fica perdido e não coloca .
