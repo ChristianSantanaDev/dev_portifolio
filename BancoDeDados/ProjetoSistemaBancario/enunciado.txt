@@ -1,0 +1,6 @@
+Projeto de BD (DER, DR e SQL):
+Para um sistema bancário simplificado que tem clientes, onde cada cliente tem CPF, RG, nome, endereço, telefone e estado civil. Um cliente pode ter mais de uma conta em agências distintas. As agências possuem código da agência, nome, endereço e nome do gerente. Sobre as contas tem-se número da conta e saldo atualizado. Uma conta é gerenciada por uma única agência. Os clientes podem movimentar suas contas, na movimentação deve constar sobre o tipo (crédito ou débito), quantia, data e hora.
+
+Comandos SQL que insiram 3 linhas em cada tabela.
+Comando SQL que liste as contas de um cliente.
+Comando SQL que liste as transações de um cliente cujos valores sejam maiores que 50.
