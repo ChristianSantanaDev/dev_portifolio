@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Jokenpô: Homem vs Máquina</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; background-color: #f4f4f9; margin-top: 50px; }
+        .container { background: white; max-width: 500px; margin: 0 auto; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .controles { display: flex; justify-content: center; gap: 15px; margin: 20px 0; }
+        .btn-jogada { font-size: 3rem; background: none; border: 2px solid #ccc; border-radius: 10px; padding: 10px 20px; cursor: pointer; transition: 0.2s; }
+        .btn-jogada:hover { border-color: #007bff; background-color: #e9f2ff; transform: scale(1.05); }
+        .painel { display: flex; justify-content: space-around; font-size: 1.2rem; margin-top: 30px; padding-top: 20px; border-top: 2px dashed #ccc; }
+        .resultado { font-size: 1.5rem; font-weight: bold; min-height: 40px; margin-top: 20px; color: #333; }
+        .vitoria { color: #28a745; }
+        .derrota { color: #dc3545; }
+        .empate { color: #6c757d; }
+    </style>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!--CODIGO HTML FEITO POR PROFESSOR ALEXANDER UFPR WEB1-->
+        <h2>Faça sua jogada!</h2>
+        
+        <div class="controles">
+            <button class="btn-jogada" data-jogada="Pedra">✊</button>
+            <button class="btn-jogada" data-jogada="Papel">✋</button>
+            <button class="btn-jogada" data-jogada="Tesoura">✌️</button>
+        </div>
+
+        <div id="mensagemResultado" class="resultado">Escolha uma opção acima.</div>
+        <p class="Res"></p>
+        <div class="painel">
+            <div>Jogador: <strong id="placarJogador">0</strong></div>
+            <div>Computador: <strong id="placarComputador">0</strong></div>
+        </div>
+    </div>
+</body>
+</html>
