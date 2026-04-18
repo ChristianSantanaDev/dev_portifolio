@@ -1,0 +1,8 @@
+Gerar um Projeto de BD (DER, DR e SQL) para uma agência de recursos humanos que
+deseja manter um cadastro das vagas disponíveis em empresas, onde cada empresa
+possui um setor específico de atuação, e o cadastro de candidatos a essas vagas.
+Inserir 3 linhas em cada tabela.
+Listar os dados das vagas que possuem candidato cujo nome inicia com "Maria".
+Listar as cidades dos candidatos que concorrem para as vagas da empresa com nome
+"Empresa K".
+Listar as vagas e os candidatos para o setor "Elétrico
