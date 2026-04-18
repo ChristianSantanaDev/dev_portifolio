@@ -1,0 +1,11 @@
+Enviar um arquivo PDF com: • Projeto de BD (DER, DR e SQL) para uma escola que utiliza
+uma planilha para controle dos alunos. Essa planilha é formada pelas colunas: ano,
+idMateria , materia , idProfessor , nomeProfessor , idAluno , nomeAluno , faltas, média e
+situação.
+
+• Comandos SQL que insiram 3 linhas em cada tabela.
+• Comando SQL que liste as matérias cursadas pelo aluno com nome iniciado com " xxxx ".
+• Comando SQL que liste os anos e os nomes das matérias que um determinado aluno
+cursou e está cursando.
+• Comando SQL para uma consulta que você considera importante.
+Diagrama entidade relacionamento:
