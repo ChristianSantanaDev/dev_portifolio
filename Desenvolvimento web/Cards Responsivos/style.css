@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 15px;
+
+}
+
+.card-imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(23, 25, 31);
+    height: 100px;
+    width: 100%;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+}
+
+button {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(40, 140, 206);
+    color: white;
+
+    transition: 0.5s;
+}
+
+.card-desc {
+    flex-grow: 1;
+    color: rgb(177, 174, 170);
+    font-size: medium;
+    text-align: left;
+}
+.card-titulo, .card-preco, .card-desc {
+    padding: 20px;
+}
+
+button:hover {
+	cursor: pointer;
+    background-color: rgb(16, 74, 112);
+    transition: 0.5s;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: red;
+    }
+    .catalogo {
+            grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .catalogo {
+        grid-template-columns: 1fr 1fr 1fr; /* Divide em 3 colunas iguais */
+    }
+}
