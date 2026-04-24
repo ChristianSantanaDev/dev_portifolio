@@ -15,7 +15,7 @@
 
 .card {
     display: flex;
-    background-color: aqua;
+    background-color: #40E0D0;
     flex-direction: column;
     padding: 20px;
     box-shadow: 10px 10px;
@@ -38,6 +38,41 @@
 }
 
 .btn-res {
-    padding: 20px;
     margin: 0 20px;
+    background-color: #000000;
+    border: 1px solid rgb(10, 43, 38);
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 60px;
+    height: 60px;
+    color: white;
+}
+
+.btn-res:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+@media (max-width: 768px){
+    .card {
+        max-height: 90vh;
+        width: 50vw;
+        height: auto;
+    }
+
+    .alternativas {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+        height: 90%;
+    }
+
+    .btn-res {
+        padding: 0;
+        width: 40px;
+        height: 40px;
+    }
 }
