@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --font: "Roboto Mono", monospace;
+  --amarelo: #e4d329;
+  --azulMar: #478b8d;
+  --azulEsc: #294669;
+  --azulMEsc: #0d0b61;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--azulEsc);
+  color: #fff;
+}
+
+main {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--amarelo);
+  font-family: var(--font);
+  font-size: 125%;
+  padding: 5px 0px;
+  margin: 20px 6px;
+  gap: 1rem;
+}
+
+.cabecalho h1 {
+  color: #333;
+}
+
+.divNavegacao {
+  margin-left: auto;
+}
+
+.divNavegacao ul {
+  display: flex;
+  flex-direction: row-reverse;
+  list-style-type: none;
+}
+
+.iconNav {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.iconImagem {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  margin-left: auto;
+}
+
+.containerInfos {
+  margin: 20px 6px 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.info {
+  color: var(--amarelo);
+  font-size: 1.5rem;
+}
+
+.botoes {
+  text-align: right;
+}
+
+.btnComecar {
+  background-color: darkgray;
+  border: 0;
+  color: black;
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btnSair {
+  margin: 0.5rem;
+}
+
+.jogo {
+  border: 1px gray solid;
+  line-height: 35px;
+  min-height: 105px;
+  position: relative;
+}
+
+.jogo:focus .DivPalavras {
+  filter: blur(0);
+  color: rgb(141, 140, 140);
+}
+
+.DivPalavras {
+  filter: blur(5px);
+  min-height: 105px;
+}
+
+.focus-erro {
+  font-weight: bold;
+  font-size: 2rem;
+  color: var(--amarelo);
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jogo:focus .focus-erro {
+  display: none;
+}
+
+.palavra {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+.letra.certo {
+  color: #fff;
+}
+
+.letra.errado {
+  color: #f55;
+}
+
+.letra.atual {
+  color: var(--amarelo);
+}
+
+.jogo.fim .DivPalavras {
+  filter: blur(0px);
+}
+
+.jogo.fim .letra {
+  opacity: 0.5;
+}
+
+.jogo.fim .focus-erro {
+  display: none;
+}
